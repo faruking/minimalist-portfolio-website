@@ -56,8 +56,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Go to Solution Site](https://your-solution-url.com)
+- Live Site URL: [Go to Live Site](https://minimalist-portfolio-website-2i9rer9co-faruking.vercel.app)
 
 ## My process
 
@@ -82,14 +82,12 @@ I would like to learn more about forms in order to be a able to create some amaz
 
 ### Useful resources
 
-- [Example resource 1](https://css-tricks.com/form-validation-ux-html-css/) - This is an amazing article which helped me with form validation.
+- [form validation](https://css-tricks.com/form-validation-ux-html-css/) - This is an amazing article which helped me with form validation.
 - [form validation](https://www.w3schools.com) -  This helped me with the form validation.
 
 ## Author
 - Frontend Mentor - [@faruking2](https://www.frontendmentor.io/profile/faruking2)
 - Twitter - [@faruking2](https://www.twitter.com/faruking2)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
 ## Acknowledgments
 
