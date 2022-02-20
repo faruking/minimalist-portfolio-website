@@ -56,7 +56,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Go to Solution Site](https://your-solution-url.com)
+- Solution URL: [Go to Solution Site](https://www.frontendmentor.io/solutions/responsive-portfolio-website-using-css-flexbox-x9ocmgyOe)
 - Live Site URL: [Go to Live Site](https://minimalist-portfolio-website-2i9rer9co-faruking.vercel.app)
 
 ## My process
