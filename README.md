@@ -31,9 +31,9 @@ Users should be able to:
   - The `Email Address` is not formatted correctly should show "Please use a valid email address"
 
 ### Screenshot
-![](starter-code\screenshots\home-desktop.png)
-![](starter-code\screenshots\home_tablet.png)
-![](starter-code\screenshots\home_mobile.png)
+![](./screenshots/home-desktop.png)
+![](./starter-code/screenshots/home_tablet.png)
+![](./screenshots/home_mobile.png)
 ![](starter-code\screenshots\portfolio_desktop.png)
 ![](starter-code\screenshots\portfolio_tablet.png)
 ![](starter-code\screenshots\portfolio_mobile.png)
