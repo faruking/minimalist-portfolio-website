@@ -1,0 +1,125 @@
+.manage-section{
+	margin-top: 10%;
+	display:flex;
+	width: 90%;
+	grid-gap: 10%;
+}
+.manage:first-of-type{
+	flex: 2.5;
+}
+.manage:nth-of-type(n+2){
+	flex: 1.5;
+
+}
+.bookmark-section{
+	margin-left: 10%;
+	margin-top: 10%;
+	display:flex;
+	width: 90%;
+	gap: 10%;
+}
+
+.bookmark:first-of-type{
+	flex: 1.5;
+}
+.bookmark:nth-of-type(n+2){
+	flex: 2.5;
+
+}
+aside{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+h2{
+	font-size: 40px;
+	font-family: 'Ibarra Real Nova', serif;
+	line-height: 42px;
+	letter-spacing: -0.36px;
+}
+p{
+	font-size: 1.25vw;
+	font-family: 'Public Sans', sans-serif;
+	line-height: 2.5vw;
+}
+button{
+	margin-bottom: 36px;
+}
+hr{
+	border-top:1px solid #9797971a;
+	width: 100%;
+	}
+@media screen and (max-width: 768px){
+	.bookmark-section{
+		margin-left: 0;
+		width: 100%;
+		align-items: center;
+	}
+	.bookmark:first-of-type{
+		flex: 2;
+	}
+	p{
+		font-size: 15px;
+		line-height: 30px;
+		font-weight: 400;
+	}
+	.manage-section{
+	width: 100%;
+	align-items: center;
+}
+
+.manage:nth-of-type(n+2){
+	flex: 2;
+}
+}
+@media screen and (max-width: 375px){
+	.top-nav{
+		margin: 5% 0 2% 0;
+	}
+.manage{
+	width: 100%;
+}
+	.profile-area{
+	height: 995px;
+	width: 100%;
+	grid-gap: 5%;
+}
+	.profile-info{
+		padding: 36px 0px;
+		font-size: 40px;
+		line-height: 45px;
+	}
+.manage-section{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+justify-content: space-between;	
+gap: 50px;
+}
+.bookmark-section{
+	width: 100%;
+	display: flex;
+	flex-direction: column-reverse;
+	flex: 1;
+justify-content: space-between;	
+gap: 48px;
+}
+ p{
+	font-size: 15px;
+	line-height: 30px;
+}
+hr{
+	width: 100%;
+}
+.bookmark{
+	margin-left: 0;
+	width: 100%;
+}
+.bookmark > img{
+	width: 100%;
+	margin-left: 0;
+}
+}

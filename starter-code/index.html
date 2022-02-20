@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="shared.css">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Public+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@700&display=swap" rel="stylesheet">
+
+  <title>Frontend Mentor | Minimalist Portfolio</title>
+</head>
+
+<body>
+  <header>
+    <div class="top-nav">
+      <div>
+        <img src="./images/logo.svg">
+      </div>
+      <div>
+        <nav class="nav-links" id="top-nav-links">
+          <a href="#" style="color: #5FB4A2;">HOME</a>
+          <a href="portfolio.html">PORTFOLIO</a>
+          <a href="contact.html">CONTACT ME</a>
+        </nav>
+        <img id="hamburger" src="./images/icons/hamburger.svg">
+      </div>
+    </div>
+  </header>
+
+  <picture>
+    <source media="(min-width: 1440px)" srcset="./images/homepage/desktop/image-homepage-hero.jpg">
+    <source media="(min-width: 768px)" srcset="./images/homepage/tablet/image-homepage-hero.jpg">
+    <source media="(min-width: 375px)" srcset="./images/homepage/mobile/image-homepage-hero.jpg">
+    <img src="./images/homepage/desktop/image-homepage-hero.jpg" width="100%" />
+  </picture>
+
+
+  <aside class="hero">
+    <div class="profile-info">
+      Hey, I’m Alex Spencer and I love building beautiful websites
+    </div>
+
+
+    <div class="button">
+      <a href="#about_me">
+        <div class="lhs"><img src="./images/icons/down-arrows.svg" height="50%" width="50%"></div>
+        <div class="rhs">ABOUT ME</div>
+      </a>
+
+    </div>
+  </aside>
+
+  <div class="profile-area" id="about_me">
+    <div class="profile">
+    </div>
+
+    <div class="profile" style="width: 100%;height: 100%">
+      <div>
+        <aside>
+          <hr style="width: 100%">
+          <h2 style="padding: 8px 0px 0px 6px">About Me</h2>
+          <p>I’m a junior front-end developer looking for a new role in an exciting company.
+            I focus on writing accessible HTML, using modern CSS practices and writing clean
+            JavaScript. When writing JavaScript code, I mostly use React, but I can adapt to
+            whatever tools are required. I’m based in London, UK, but I’m happy working remotely
+            and have experience in remote teams. When I’m not coding, you’ll find me outdoors.
+            I love being out in nature whether that’s going for a walk, run or cycling. I’d love
+            you to check out my work.</p>
+        </aside>
+      </div>
+      <div>
+        <a href="portfolio.html"><button>GO TO PORTFOLIO</button></a>
+      </div>
+      <div>
+        <hr>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="footer-area">
+    <div class="footer-area-item">
+      <h2>Interested in doing a project together?</h2>
+    </div>
+    <div class="footer-area-item">
+      <hr>
+    </div>
+
+    <a href="contact.html"><button>CONTACT ME</button></a>
+
+  </div>
+  <footer>
+    <div class="bottom-nav">
+      <div class="bottom_nav_item">
+        <img src="./images/white_logo.svg">
+      </div>
+      <div class="bottom_nav_item">
+        <nav class="nav-links" style="color: white">
+          <a href="index.html" style="color: white">HOME</a>
+          <a href="portfolio.html" style="color: white">PORTFOLIO</a>
+          <a href="contact.html" style="color: white">CONTACT ME</a>
+        </nav>
+      </div>
+      <div class="bottom_nav_item">
+        <div class="icon-github" style="width: 25px;height: 24px">
+        </div>
+        <div class="icon-twitter" style="width: 24px;height: 20px"></div>
+        <div class="icon-linkedin" style="width: 24px;height: 24px"></div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,189 @@
+section{
+  display: flex;
+  flex-direction: row;
+  gap: 14%;
+}
+.contact-item:first-of-type{
+  width: 30%;
+}
+.contact-item:nth-of-type(n+2){
+  width: 56%;
+}
+p{
+  margin: 0;
+  font-family: 'Public Sans',sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  color: #33323D;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+
+
+.icon-github-black{
+	background-image: url("github_black.svg");
+}
+.icon-linkedin-black{
+	background-image: url("linkedin_black.svg");
+}
+.icon-twitter-black{
+	background-image: url("twitter_black.svg");
+}
+
+form {
+  max-width: 100%;
+}
+input:invalid {
+  border: 1px solid red;
+  outline: none;
+}
+form > div > input[type="text"]:focus:invalid,form > div > input[type="email"]:focus:invalid{
+  border:1px solid red;
+  outline: none;
+}
+textarea:invalid {
+  border: 1px solid red;
+  outline: none;
+}
+textarea:required:focus:invalid {
+  border: 1px solid red;
+  outline: none;
+}
+label{
+  font-family: 'Public Sans',sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 30px;
+  color: #33323ddc;
+}
+input,textarea{
+  width: 98%;
+  background-color: rgb(234, 234, 235);
+  mix-blend-mode: normal;
+  min-height: 48px;
+  border: none;
+  color: rgba(51, 50, 61,0.4);
+  font-family: 'Public Sans',sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 30px;
+  padding-left: 16px;
+}
+form > div > input[type="text"]:focus, form > div > input[type="email"]:focus, form > div > textarea:focus {
+  outline:1px solid #5FB4A2 ;
+}
+#errorMessageTextArea,#errorMessageName,#errorMessageMail,#errorMessageInvalidMail{
+  color: #F43030;
+  font-size: 10px;
+  font-family: 'Public Sans',sans-serif;
+  font-style: italic;
+  font-weight: 700;
+  display: none;
+}
+.socials{
+  display: flex;
+  grid-gap: 10px;
+}
+button{
+  background-color: #203A4C;
+  width: 200px;
+  padding: 17px 24px;
+  margin-top: 24px;
+  margin-bottom: 15%;
+  font-family: 'Public Sans',sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border: none;
+  color: #FFFFFF;
+}
+h2{
+  font-family: Ibarra Real Nova;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 42px;
+  letter-spacing: -0.357143px;
+  color: #33323D;
+  margin: 0;
+}
+
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed; 
+  z-index: 1; 
+
+  left:0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  background-color:rgb(51, 50, 61);
+  background-color: rgba(51, 50, 61, 0); 
+
+}
+  
+  /* Modal Content/Box */
+.modal-content {
+  margin: 17% 5% 0 0; 
+  float: right;
+  background-color: #33323D;
+  width: 67%;
+  padding: 31px 0;
+}
+  
+  /* The Close Button */
+#close {
+  color: black;
+  float: right;
+  font-size: 28px;
+  width: 100%;
+  height: 100%;
+  display: none;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+
+}
+#hamburger{
+  display: none;
+}
+
+@media screen and (max-width: 768px){
+  section{
+      flex-direction: column;
+  }
+  .contact-item:first-of-type{
+      width: 100%;
+  }
+  .contact-item:nth-of-type(n+2){
+      width: 100%;
+  }
+  .bottom-nav{
+      width: 90%;
+  }
+  h2{
+      margin-bottom: 5%;
+  }
+}
+@media screen and (max-width: 375px){
+  input,textarea{
+      box-sizing: border-box;
+  }
+  #hamburger{
+      display: inline-block;
+  }
+
+}
+
+  
