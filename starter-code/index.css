@@ -79,7 +79,12 @@ button{
 .profile:nth-of-type(n+2){
 	flex: 1.5;
 }
-
+.lhs:hover{
+	background-color: #478a7b;
+}
+.lhs:hover ~ .rhs{
+	background-color:#5FB4A2;
+}
 @media screen and (max-width: 768px){
 
 	.hero{
