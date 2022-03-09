@@ -49,9 +49,10 @@
 
     <div >
       <a href="#about_me" class="button">
-        <div class="lhs"><img src="./images/icons/down-arrows.svg"  alt="button icon" style="width: 50%;height: 50%;"></div>
-        <div class="rhs">ABOUT ME</div>
+        <div class="lhs" id="lhs" ><img src="./images/icons/down-arrows.svg"  alt="button icon" style="width: 50%;height: 50%;"></div>
+        <div class="rhs" onmouseover="changeBackground()" onmouseout="defaultBackground()">ABOUT ME</div>
       </a>
+
 
     </div>
   </aside>
@@ -115,6 +116,19 @@
       </div>
     </div>
   </footer>
+  <script>
+    function changeBackground(){
+      console.log('done');
+      var item = document.getElementById("lhs");
+      item.style.backgroundColor = "#478a7b";
+    }
+    function defaultBackground(){
+      console.log('done');
+      var item = document.getElementById("lhs");
+      item.style.backgroundColor = "";
+    }
+    
+  </script>
 
 </body>
 

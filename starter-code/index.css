@@ -85,6 +85,14 @@ button{
 .lhs:hover ~ .rhs{
 	background-color:#5FB4A2;
 }
+.rhs:hover{
+	background-color: #5FB4A2;
+}
+.rhs:hover ~ .lhs{
+	height: 200px;
+}
+
+
 @media screen and (max-width: 768px){
 
 	.hero{
